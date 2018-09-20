@@ -3,3 +3,24 @@
 div#render-target {
 
 }
+
+.titles {
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#wrapper {
+  height: 100%;
+  width: 100%;
+  vertical-align: middle;
+  border: 1px solid blue;
+  position: relative;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
