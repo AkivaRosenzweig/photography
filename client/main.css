@@ -22,6 +22,7 @@ body {
 
 .titles {
   font-family: 'Nunito', sans-serif;
+  /*font-family: 'Caveat Brush', cursive;*/
   text-align: center;
   vertical-align: middle;
   display: table-cell;
