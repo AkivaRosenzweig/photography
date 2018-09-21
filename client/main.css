@@ -22,12 +22,39 @@ body {
 
 .titles {
   font-family: 'Nunito', sans-serif;
-  /*font-family: 'Caveat Brush', cursive;*/
   text-align: center;
   vertical-align: middle;
   display: table-cell;
   background-color:rgba(0, 0, 0, 0.3);
   color: white;
+}
+
+.big-font {
+  font-size: 55pt;
+}
+
+.medium-font {
+  font-size: 35pt;
+}
+
+.small-font {
+  font-size: 20pt;
+}
+
+.small-margin {
+  margin: 0em;
+}
+
+.transparent-button {
+  font-size: 6vw;
+  background: none;
+  color: white;
+  border: none;
+  display: block;
+    width:100%;
+    position: absolute;
+    bottom:20px;
+    text-align: center;
 }
 
 #wrapper {
