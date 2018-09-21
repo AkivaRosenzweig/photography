@@ -30,11 +30,11 @@ body {
 }
 
 .big-font {
-  font-size: 55pt;
+  font-size: 49.5pt;
 }
 
 .medium-font {
-  font-size: 35pt;
+  font-size: 32pt;
 }
 
 .small-font {
@@ -42,19 +42,27 @@ body {
 }
 
 .small-margin {
-  margin: 0em;
+  margin: 0;
 }
 
 .transparent-button {
   font-size: 6vw;
   background: none;
-  color: white;
+  color: #C9C9C9;
   border: none;
   display: block;
     width:100%;
     position: absolute;
     bottom:20px;
     text-align: center;
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+}
+
+.transparent-button:hover {
+    color: white;
 }
 
 #wrapper {
