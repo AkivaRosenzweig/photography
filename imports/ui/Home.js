@@ -7,7 +7,8 @@ export default class Home extends Component {
   render () {
     return (
       <React.Fragment>
-        <div className="titles">
+
+        <div className="titles parallax">
           <header>
             <h1 className="big-font no-margin"> See the world through a new lense.</h1>
             <h2 className="medium-font no-margin"> Welcome to my gallery. </h2>
