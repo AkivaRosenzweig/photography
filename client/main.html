@@ -2,43 +2,6 @@
 <head>
   <title>photography</title>
   <link href="https://fonts.googleapis.com/css?family=Nunito:200" rel="stylesheet">
-  <script>
-  var slideIndex = 0;
-
-  function plusSlides(n) {
-    showSlides(slideIndex += n);
-  }
-
-  function currentSlide(n) {
-    showSlides(slideIndex = n);
-  }
-
-  function showSlides(n) {
-    var i;
-    var slidesHolder = document.getElementById("slides");
-    if (slidesHolder) {
-      var slides = slidesHolder.childNodes;
-      var slideNames = [];
-      for (var item in slides) {
-        if (item.className) {
-          slideNames.push(item.className);
-        }
-      }
-
-      if (n > slideNames.length - 1) {
-        slideIndex = slideNames.length - 1;
-      }
-      if (n < 0) {
-        slideIndex = 0;
-      }
-
-      var desiredClass = slideNames[n];
-      var target = document.getElementById("photoTarget");
-      target.className = desiredClass + "  mySlides fade";
-    }
-  }
-
-  </script>
 </head>
 
 <body id="render-target">
